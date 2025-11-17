@@ -1,0 +1,198 @@
+header{
+    background-color: lightblue;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+  .header-content {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    justify-content: center;
+  }
+
+  .header-content img {
+    height: 50px;
+    width: auto;
+  }
+
+  header {
+    padding: 10px 20px;
+  }
+
+body{
+    background-image:url(wavvvvy.webp) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+    color: #000000;
+    font-size: large;
+}
+.pixel{
+  font-family: "Jersey 15 Charted", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(215, 60, 17);
+  background-color: rgb(43, 226, 128);
+  border-radius: 20px;
+  padding: 5px;
+  max-width: 250px;         /* or some percentage, or “auto” */
+  margin: 0 auto;           /* centers it horizontally */
+  transition: 1s ease;
+}
+.pixel:hover{
+  color: mediumseagreen;
+  background-color: black;
+  cursor: url(icons8-video-game-30.png), auto;
+}
+.big{
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  background-color: #120a04;
+  padding: 5px;
+  border-radius: 8px;
+}
+dd{
+    color: rgb(196, 19, 19);
+}
+.little{
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(238, 185, 10);
+  background-color: #e00f0f;
+border-radius: 20px;
+}
+
+.cabin-sketch-reg {
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+p{
+  text-align: center;
+}
+li {
+  text-align: center;
+
+  list-style-position: inside;
+}
+ul {
+  text-align: center;
+  list-style-position: inside;
+}
+dl {
+  text-align: center;
+  list-style-position: inside;
+}
+.bigger{
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  background-color: gold;
+  border-radius: 8px;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+.quiz{
+  color: aqua;
+  background-color: rgb(255, 111, 0);
+  padding: 10px;
+}
+.links{
+  color: rgb(16, 224, 165);
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  text-align: center;
+  max-width: 150px;         /* or some percentage, or “auto” */
+  margin: 0 auto;           /* centers it horizontally */
+  border-radius: 15px;
+}
+a{
+  color: #c60e0e;
+  transition: 1.5s ease-in-out;
+}
+a:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(237, 19, 19);
+  padding: 5px;
+  border-radius: 8px;
+}
+.tabble{
+  background-color: antiquewhite;
+  padding: 5px;
+  border-radius: 8px;
+}
+table{
+  display: flex;
+  justify-content: center;
+}
+.s{
+  background-color: antiquewhite;
+  max-width: 435px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+table {
+  /* This is the key to single separating lines */
+  border-collapse: collapse;
+  /* (Optional) You can still put a border on the table itself */
+  border: 2px solid darkgray;
+}
+
+th, td {
+  /* Apply the cell borders */
+  border: 1px solid black;
+  /* (Optional) Add some internal padding for better looks */
+  padding: 8px;
+  text-align: left;
+}
+.ss{
+  color: black;
+  background-color: aqua;
+  max-width: 135px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+.t{
+  background-color: antiquewhite;
+}
+.pk{
+  background-color: aqua;
+  border-radius: 10px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.im{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pix{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pixl{
+    display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
